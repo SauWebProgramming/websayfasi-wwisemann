@@ -1,0 +1,29 @@
+/* Metinler İçin Ortak CSS*/
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+
+/* Renkler İçin Ortak CSS */
+
+.bg-dark-blue {
+    background-color: #1e4262;
+}
+
+.bg-light-blue {
+    background-color: #345471;
+}
+
