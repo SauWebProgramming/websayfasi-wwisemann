@@ -29,11 +29,13 @@ a {
 }
 
 #navbar ul li a{
+    color: #fff;
     margin: 0.75rem;
 }
 
 #navbar ul li a:hover{
-    color: #fff;
+    background:#336ea2;
+    border-radius: 5px;
 }
 
 
