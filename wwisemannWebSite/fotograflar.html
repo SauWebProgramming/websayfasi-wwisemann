@@ -31,7 +31,7 @@
                 width: 150px;
                 height: 150px;
                 background: gray;
-                margin: 0px 14px;
+                margin: 10px 54px;
                 transition: 0.5s;
         }
 
@@ -41,6 +41,30 @@
             transform: scale(1.2);
             background: black;
             z-index: 2;
+        }
+
+        ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: #212121;
+        }
+        ul.breadcrumb li {
+            display: inline;
+            font-size: 20px;
+            color: rgb(178, 199, 238);
+        }
+        ul.breadcrumb li + li:before {
+            padding: 8px;
+            color: cornflowerblue;
+            content: "/\00a0";
+        }
+        ul.breadcrumb li a {
+            color: cornflowerblue;
+            text-decoration: none;
+        }
+        ul.breadcrumb li a:hover {
+            color: cornflowerblue;
+            text-decoration: underline;
         }
 
         </style>
@@ -57,10 +81,13 @@
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#ac_kapa" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+                <ul class="breadcrumb">
+                    <li><a href="#">Galeri</a></li>
+                    <li>Fotoğraflar</li>
+                </ul>
             <div id="ac_kapa" class="collapse navbar-collapse justify-content-center">
 
-            <ul class="navbar-nav" style="margin-left: 550px;" >
+            <ul class="navbar-nav" style="margin-left: 250px;" >
                 <li class="nav-item"><a href="index.html" class="nav-link m-xxl-3 text-white" style="font-family: 'Times New Roman', Times, serif;">ANA SAYFA</a></li>
                 <li class="nav-item"><a href="projeler.html" class="nav-link m-xxl-3 text-white" style="font-family: 'Times New Roman', Times, serif;">PROJELER</a></li>
 
@@ -71,7 +98,6 @@
                         <a href="videolar.html" class="dropdown-item" style="font-family: 'Times New Roman', Times, serif;" >Videolar</a>
                     </div>
                 </li>
-
                 <li class="nav-item"><a href="iletisim.html" class="nav-link m-xxl-3 text-white" style="font-family: 'Times New Roman', Times, serif;" >İLETİŞİM</a></li>
             </ul>
             </div> 
@@ -85,24 +111,24 @@
                 <div class="container-fluid" style="margin-top: 20px;">
                     <div class="container">
                         <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Ailem</b></h1>
-                        <div class="box"><img src="Images/foto1.jpg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto2.jpg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto3.jpg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto4.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto1.jpg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto2.jpg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto3.jpg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto4.jpg" style="height: 200px; width: 200px;"/></div>
                     </div>
                     <div class="container">
                         <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Arkadaşlarım</b></h1>
-                        <div class="box"><img src="Images/foto5.JPG" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto6.jpeg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto7.jpg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto8.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto5.JPG" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto6.jpeg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto7.jpg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto8.jpg" style="height: 200px; width: 200px;"/></div>
                     </div>
                     <div class="container">
                         <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Spor</b></h1>
-                        <div class="box"><img src="Images/Proje6.jpeg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto10.jpeg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto11.jpg" style="height: 200px; width: 170px;"/></div>
-                        <div class="box"><img src="Images/foto12.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/Proje6.jpeg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto10.jpeg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto11.jpg" style="height: 200px; width: 200px;"/></div>
+                        <div class="box"><img src="Images/foto12.jpg" style="height: 200px; width: 200px;"/></div>
                     </div>
                 </div>
             </div>
