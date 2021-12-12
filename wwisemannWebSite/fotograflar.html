@@ -10,16 +10,38 @@
     
         <style>
             
-            html {
+        html {
                 position: relative;
                 
         }
-            body{
+        body {
                 color: #555;
                 background: #e5e5e5;
         }
+        .container {
+                width: 80%;
+                margin:0 auto;
+                padding: 50px 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+        }
 
-            
+        .box {
+                width: 150px;
+                height: 150px;
+                background: gray;
+                margin: 0px 14px;
+                transition: 0.5s;
+        }
+
+        .box img {border-radius: 6px;}
+
+        .box:hover {
+            transform: scale(1.2);
+            background: black;
+            z-index: 2;
+        }
 
         </style>
         <!-- Bootstrap CSS -->
@@ -59,9 +81,30 @@
         <br><br>
 
         
-            <div style="height:1000px; background:#424242"  >
-                       
-
+            <div style="height:900px; background:#424242"  >
+                <div class="container-fluid" style="margin-top: 20px;">
+                    <div class="container">
+                        <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Ailem</b></h1>
+                        <div class="box"><img src="Images/foto1.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto2.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto3.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto4.jpg" style="height: 200px; width: 170px;"/></div>
+                    </div>
+                    <div class="container">
+                        <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Arkadaşlarım</b></h1>
+                        <div class="box"><img src="Images/foto5.JPG" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto6.jpeg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto7.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto8.jpg" style="height: 200px; width: 170px;"/></div>
+                    </div>
+                    <div class="container">
+                        <h1 style="margin-top: 40px; margin-right: 40px; font-family: 'Times New Roman', Times, serif; color: #212121 "> <b>Spor</b></h1>
+                        <div class="box"><img src="Images/Proje6.jpeg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto10.jpeg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto11.jpg" style="height: 200px; width: 170px;"/></div>
+                        <div class="box"><img src="Images/foto12.jpg" style="height: 200px; width: 170px;"/></div>
+                    </div>
+                </div>
             </div>
 
             <footer class="footer bg-dark">
